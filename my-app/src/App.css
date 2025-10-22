@@ -1,0 +1,84 @@
+body {
+  background-color: rgba(167, 241, 217, 0.441);
+}
+
+.world-icon {
+  max-width: 50px;
+  margin-right: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+.locations_info {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.country_image {
+  margin-top: 1rem;
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.country_name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.website {
+  margin-left: 25px;
+}
+
+.country {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.information {
+  display: flex;
+  margin-right: 20px;
+}
+
+.location_icon {
+  margin-top: 2%;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  width: 20px;
+  height: 20px;
+}
+
+.location_title {
+  margin-left: 5rem;
+  margin-top: 10px;
+  font-size: 40px;
+}
+.date {
+  margin-left: 5rem;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+.main_text {
+  margin-left: 5rem;
+  margin-top: 10px;
+  font-weight: lighter;
+  overflow-wrap: break-word
+}
